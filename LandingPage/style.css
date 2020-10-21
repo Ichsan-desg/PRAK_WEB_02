@@ -1,0 +1,84 @@
+.container {
+    width: 100%;
+    margin: auto;
+    background-color: rgba(156, 28, 92, 0.2);
+    display: inline-block;
+    font-size: 30px;
+    color: honeydew; 
+}
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+body {
+    font: 16px/28px arial, sans-serif;
+    background: url(img/84252.jpg);
+    
+}
+.header .judul {
+    font-size: 45px;
+    padding-left: 20px;
+}
+.navs ul li {
+    display: inline-block;
+    font-size: 14px;
+    padding-right: 20px;
+    margin: auto;
+   padding-top: auto;
+   padding-bottom: auto;
+}
+.header a {
+    text-decoration: none;
+    color:gray;
+}
+.navs a:hover {
+   background-color: moccasin;
+   color: salmon;
+}
+.hero {
+    height: 150px;
+    background-image: url(img/berry.jpg);
+    background-size: cover;
+    background-position: 0 -330px;
+    border-top: solid wheat;
+    border-bottom: solid wheat;
+}
+
+
+.content h6 {
+   margin: auto;
+   padding-top: 7px; 
+}
+h5 {
+    font-family: pacifico;
+}
+
+.tabel1 {
+    margin: left;
+    font-family: monospace;
+    color: gray;
+    width: 400px;
+    height: 10px;
+    table-layout: auto;
+    
+}
+
+.tabel1 tr th {
+    background: lightyellow;
+    color: gray;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+.tabel1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.tabel1 tr {
+    background-color:#f2f2f2;
+}
+
+.tabel1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
